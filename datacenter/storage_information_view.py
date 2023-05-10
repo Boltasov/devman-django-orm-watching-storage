@@ -1,5 +1,5 @@
 from datacenter.models import Visit
-from datacenter.models import format_duration
+from datacenter.time_format import format_duration
 from django.shortcuts import render
 
 
